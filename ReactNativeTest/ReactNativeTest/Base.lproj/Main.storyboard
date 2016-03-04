@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="au3-mM-GUo">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ReactNativeTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="ReactView" customModule="ReactNativeTest" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="69p-2l-bKC"/>
+                    <connections>
+                        <segue destination="U1g-Ri-ane" kind="show" identifier="nativeSegue" id="8Wo-12-ShW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1869" y="429"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="90J-cq-kK6">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="au3-mM-GUo" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="vVy-G6-Cko">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="3er-Ec-pZc" kind="relationship" relationship="viewControllers" id="N1X-NW-qmH"/>
+                        <segue destination="vKm-Lm-pKL" kind="relationship" relationship="viewControllers" id="CUg-rN-das"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jtL-zF-D1s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="429"/>
+        </scene>
+        <!--Native View Controller-->
+        <scene sceneID="2cw-BM-oNv">
+            <objects>
+                <viewController id="U1g-Ri-ane" customClass="NativeViewController" customModule="ReactNativeTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XuS-aK-sJC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Igj-Jl-Yxx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GMs-QL-gdm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Native Component" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axT-vN-hdr">
+                                <rect key="frame" x="20" y="72" width="560" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="aCG-Vn-LRT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="axT-vN-hdr" firstAttribute="top" secondItem="XuS-aK-sJC" secondAttribute="bottom" constant="8" id="DU8-1e-Ccp"/>
+                            <constraint firstItem="axT-vN-hdr" firstAttribute="leading" secondItem="GMs-QL-gdm" secondAttribute="leadingMargin" id="MfB-4C-Fac"/>
+                            <constraint firstItem="axT-vN-hdr" firstAttribute="trailing" secondItem="GMs-QL-gdm" secondAttribute="trailingMargin" id="uQQ-OM-tIM"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="5NK-xF-nNz"/>
+                    <connections>
+                        <outlet property="label" destination="axT-vN-hdr" id="a94-X0-Wi0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BRL-AB-r6u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1057" y="1296"/>
+        </scene>
+        <!--React-->
+        <scene sceneID="e9H-sn-6t0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3er-Ec-pZc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="React" id="dbt-d1-AQR"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="M1t-J3-dHb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="j3s-6Q-dPi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CeE-P3-0vx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1057" y="429"/>
+        </scene>
+        <!--Native-->
+        <scene sceneID="eTG-Hb-01h">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vKm-Lm-pKL" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Native" id="fhn-tP-wYc"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZGf-Dy-HNL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="U1g-Ri-ane" kind="relationship" relationship="rootViewController" id="Kmp-ML-Kc9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eaY-3P-i37" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="1296"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="8Wo-12-ShW"/>
+    </inferredMetricsTieBreakers>
+</document>

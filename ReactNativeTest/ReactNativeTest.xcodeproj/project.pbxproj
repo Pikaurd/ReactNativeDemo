@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8751D4941C892CB30063F257 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751D4931C892CB30063F257 /* AppDelegate.swift */; };
+		8751D4961C892CB30063F257 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751D4951C892CB30063F257 /* ViewController.swift */; };
+		8751D4991C892CB30063F257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8751D4971C892CB30063F257 /* Main.storyboard */; };
+		8751D49B1C892CB30063F257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8751D49A1C892CB30063F257 /* Assets.xcassets */; };
+		8751D49E1C892CB30063F257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8751D49C1C892CB30063F257 /* LaunchScreen.storyboard */; };
+		8751D4A91C892CB30063F257 /* ReactNativeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751D4A81C892CB30063F257 /* ReactNativeTestTests.swift */; };
+		8751D4B81C8950750063F257 /* ReactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751D4B71C8950750063F257 /* ReactView.swift */; };
+		8751D4C11C89577C0063F257 /* RNNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8751D4C01C89577C0063F257 /* RNNotificationManager.m */; };
+		8751D4D31C8965BA0063F257 /* NativeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751D4D21C8965BA0063F257 /* NativeViewController.swift */; };
+		8DEF5A995715AD3C23DFE416 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E6FE7E70A5595867F7F2DB /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8751D4A51C892CB30063F257 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8751D4881C892CB30063F257 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8751D48F1C892CB30063F257;
+			remoteInfo = ReactNativeTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23E6FE7E70A5595867F7F2DB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		656FB83651A3D6AB746047E6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8751D4901C892CB30063F257 /* ReactNativeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8751D4931C892CB30063F257 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8751D4951C892CB30063F257 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8751D4981C892CB30063F257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8751D49A1C892CB30063F257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8751D49D1C892CB30063F257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8751D49F1C892CB30063F257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8751D4A41C892CB30063F257 /* ReactNativeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8751D4A81C892CB30063F257 /* ReactNativeTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactNativeTestTests.swift; sourceTree = "<group>"; };
+		8751D4AA1C892CB30063F257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8751D4B31C8931F20063F257 /* ReactNativeTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactNativeTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		8751D4B71C8950750063F257 /* ReactView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactView.swift; sourceTree = "<group>"; };
+		8751D4BF1C89577C0063F257 /* RNNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNotificationManager.h; sourceTree = "<group>"; };
+		8751D4C01C89577C0063F257 /* RNNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNotificationManager.m; sourceTree = "<group>"; };
+		8751D4D21C8965BA0063F257 /* NativeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeViewController.swift; sourceTree = "<group>"; };
+		8AFD6A0B2D6B0023124AFB94 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8751D48D1C892CB30063F257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DEF5A995715AD3C23DFE416 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8751D4A11C892CB30063F257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5405F858D92C2D0B774E3976 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				656FB83651A3D6AB746047E6 /* Pods.debug.xcconfig */,
+				8AFD6A0B2D6B0023124AFB94 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		81409304A265AAD8D3459F49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23E6FE7E70A5595867F7F2DB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8751D4871C892CB30063F257 = {
+			isa = PBXGroup;
+			children = (
+				8751D4921C892CB30063F257 /* ReactNativeTest */,
+				8751D4A71C892CB30063F257 /* ReactNativeTestTests */,
+				8751D4911C892CB30063F257 /* Products */,
+				5405F858D92C2D0B774E3976 /* Pods */,
+				81409304A265AAD8D3459F49 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8751D4911C892CB30063F257 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8751D4901C892CB30063F257 /* ReactNativeTest.app */,
+				8751D4A41C892CB30063F257 /* ReactNativeTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8751D4921C892CB30063F257 /* ReactNativeTest */ = {
+			isa = PBXGroup;
+			children = (
+				8751D4BE1C8957710063F257 /* ReactNativeBridges */,
+				8751D4931C892CB30063F257 /* AppDelegate.swift */,
+				8751D4951C892CB30063F257 /* ViewController.swift */,
+				8751D4D21C8965BA0063F257 /* NativeViewController.swift */,
+				8751D4971C892CB30063F257 /* Main.storyboard */,
+				8751D49A1C892CB30063F257 /* Assets.xcassets */,
+				8751D49C1C892CB30063F257 /* LaunchScreen.storyboard */,
+				8751D49F1C892CB30063F257 /* Info.plist */,
+				8751D4B31C8931F20063F257 /* ReactNativeTest-Bridging-Header.h */,
+				8751D4B71C8950750063F257 /* ReactView.swift */,
+			);
+			path = ReactNativeTest;
+			sourceTree = "<group>";
+		};
+		8751D4A71C892CB30063F257 /* ReactNativeTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				8751D4A81C892CB30063F257 /* ReactNativeTestTests.swift */,
+				8751D4AA1C892CB30063F257 /* Info.plist */,
+			);
+			path = ReactNativeTestTests;
+			sourceTree = "<group>";
+		};
+		8751D4BE1C8957710063F257 /* ReactNativeBridges */ = {
+			isa = PBXGroup;
+			children = (
+				8751D4BF1C89577C0063F257 /* RNNotificationManager.h */,
+				8751D4C01C89577C0063F257 /* RNNotificationManager.m */,
+			);
+			path = ReactNativeBridges;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8751D48F1C892CB30063F257 /* ReactNativeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8751D4AD1C892CB30063F257 /* Build configuration list for PBXNativeTarget "ReactNativeTest" */;
+			buildPhases = (
+				6A295F8837A2C0F553480B1C /* Check Pods Manifest.lock */,
+				8751D48C1C892CB30063F257 /* Sources */,
+				8751D48D1C892CB30063F257 /* Frameworks */,
+				8751D48E1C892CB30063F257 /* Resources */,
+				4B8BDC5977301F085CE69972 /* Embed Pods Frameworks */,
+				1E1D482465AC0D509AC76C6E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactNativeTest;
+			productName = ReactNativeTest;
+			productReference = 8751D4901C892CB30063F257 /* ReactNativeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8751D4A31C892CB30063F257 /* ReactNativeTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8751D4B01C892CB30063F257 /* Build configuration list for PBXNativeTarget "ReactNativeTestTests" */;
+			buildPhases = (
+				8751D4A01C892CB30063F257 /* Sources */,
+				8751D4A11C892CB30063F257 /* Frameworks */,
+				8751D4A21C892CB30063F257 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8751D4A61C892CB30063F257 /* PBXTargetDependency */,
+			);
+			name = ReactNativeTestTests;
+			productName = ReactNativeTestTests;
+			productReference = 8751D4A41C892CB30063F257 /* ReactNativeTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8751D4881C892CB30063F257 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Chen Hao";
+				TargetAttributes = {
+					8751D48F1C892CB30063F257 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					8751D4A31C892CB30063F257 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 8751D48F1C892CB30063F257;
+					};
+				};
+			};
+			buildConfigurationList = 8751D48B1C892CB30063F257 /* Build configuration list for PBXProject "ReactNativeTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8751D4871C892CB30063F257;
+			productRefGroup = 8751D4911C892CB30063F257 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8751D48F1C892CB30063F257 /* ReactNativeTest */,
+				8751D4A31C892CB30063F257 /* ReactNativeTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8751D48E1C892CB30063F257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8751D49E1C892CB30063F257 /* LaunchScreen.storyboard in Resources */,
+				8751D49B1C892CB30063F257 /* Assets.xcassets in Resources */,
+				8751D4991C892CB30063F257 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8751D4A21C892CB30063F257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E1D482465AC0D509AC76C6E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B8BDC5977301F085CE69972 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A295F8837A2C0F553480B1C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8751D48C1C892CB30063F257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8751D4D31C8965BA0063F257 /* NativeViewController.swift in Sources */,
+				8751D4C11C89577C0063F257 /* RNNotificationManager.m in Sources */,
+				8751D4961C892CB30063F257 /* ViewController.swift in Sources */,
+				8751D4B81C8950750063F257 /* ReactView.swift in Sources */,
+				8751D4941C892CB30063F257 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8751D4A01C892CB30063F257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8751D4A91C892CB30063F257 /* ReactNativeTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8751D4A61C892CB30063F257 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8751D48F1C892CB30063F257 /* ReactNativeTest */;
+			targetProxy = 8751D4A51C892CB30063F257 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8751D4971C892CB30063F257 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8751D4981C892CB30063F257 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8751D49C1C892CB30063F257 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8751D49D1C892CB30063F257 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8751D4AB1C892CB30063F257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8751D4AC1C892CB30063F257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8751D4AE1C892CB30063F257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 656FB83651A3D6AB746047E6 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ReactNativeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.zuijiao.ReactNativeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactNativeTest/ReactNativeTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8751D4AF1C892CB30063F257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AFD6A0B2D6B0023124AFB94 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ReactNativeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.zuijiao.ReactNativeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactNativeTest/ReactNativeTest-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		8751D4B11C892CB30063F257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReactNativeTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.zuijiao.ReactNativeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeTest.app/ReactNativeTest";
+			};
+			name = Debug;
+		};
+		8751D4B21C892CB30063F257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReactNativeTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.zuijiao.ReactNativeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeTest.app/ReactNativeTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8751D48B1C892CB30063F257 /* Build configuration list for PBXProject "ReactNativeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8751D4AB1C892CB30063F257 /* Debug */,
+				8751D4AC1C892CB30063F257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8751D4AD1C892CB30063F257 /* Build configuration list for PBXNativeTarget "ReactNativeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8751D4AE1C892CB30063F257 /* Debug */,
+				8751D4AF1C892CB30063F257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8751D4B01C892CB30063F257 /* Build configuration list for PBXNativeTarget "ReactNativeTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8751D4B11C892CB30063F257 /* Debug */,
+				8751D4B21C892CB30063F257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8751D4881C892CB30063F257 /* Project object */;
+}

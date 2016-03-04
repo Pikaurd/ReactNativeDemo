@@ -1,0 +1,13 @@
+.DS_Store
+
+node_modules/
+
+*/Pods/*
+*/Pods
+*/*.xcodeproj/xcuserdata/
+*/.DS_Store
+*/Vendor/*
+*/Vendor
+*/Carthage/*
+*/Carthage
+*/DerivedData/
